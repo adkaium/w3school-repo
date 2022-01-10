@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    margin-bottom: 0;
+}
+.logo{
+    padding-top: 5px;
+}
+.w3-logo{
+    height: 80px;
+    width: 80px;
+}
+.list-one{
+    width: 50%;
+}
+.lists{
+    display: flex;
+    list-style: none;
+    padding: 30px;
+}
+.item{
+    padding:10px;
+    font-size: 1.2rem;
+  margin-right: 12px;
+
+}
+
+.item a{
+    text-decoration: none;
+    color: black;
+    padding:35px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.item:hover a{
+    background-color:#059862;
+    color:white;
+    transition: .1s;
+}
+
+.list-two{
+    position: relative;
+    left:150px;
+
+}
+.lists-two{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-right: 30px;
+}
+.item-two{
+    padding-top:37px;
+    padding-left: 45px; 
+}
+.item-two a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    color:black;
+}
+.item-two:nth-child(2) a:hover{
+    background-color: #059862;
+    padding:15px 10px;
+    border-radius: 40px;
+    color:white;
+   
+}
+.item-two:first-child a{
+    background-color: rgb(255, 174, 165);
+    padding:15px 20px;
+    border-radius:50px;
+}
+.item-two span{
+    font-size: 14px;
+    border:1px solid;
+    border-radius: 50px;
+    padding:5px 10px;
+    background-color:white;
+}
+.menu{
+    height: 45px;
+    background-color:#282A35;
+    margin-top: 0;
+}
